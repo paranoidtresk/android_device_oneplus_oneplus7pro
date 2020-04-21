@@ -27,6 +27,16 @@ $(call inherit-product-if-exists, vendor/oneplus/oneplus7pro/oneplus7pro-vendor.
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
+# OnePlus Camera
+PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusCameraService \
+    OnePlusGallery
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/permissions/privapp-permissions-opcamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-opcamera.xml
+
 # Display
 PRODUCT_PACKAGES += \
 	init.display.oneplus7pro.rc
