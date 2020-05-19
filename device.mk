@@ -29,9 +29,7 @@ PRODUCT_PACKAGES += \
 
 # OnePlus Camera
 PRODUCT_PACKAGES += \
-    OnePlusCamera \
-    OnePlusCameraService \
-    OnePlusGallery
+    OnePlusCameraService
 
 # Permissions
 PRODUCT_COPY_FILES += \
