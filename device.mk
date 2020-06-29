@@ -35,10 +35,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/permissions/privapp-permissions-opcamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-opcamera.xml
 
-# Display
-PRODUCT_PACKAGES += \
-	init.display.oneplus7pro.rc
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \

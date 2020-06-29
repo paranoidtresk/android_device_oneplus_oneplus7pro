@@ -1,13 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := init.display.oneplus7pro.rc
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES := etc/init.display.oneplus7pro.rc
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/init/
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := OnePlusCamera
 LOCAL_MODULE_OWNER := oneplus
 LOCAL_SRC_FILES := system/priv-app/OnePlusCamera/OnePlusCamera.apk
